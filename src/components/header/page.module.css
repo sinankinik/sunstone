@@ -1,0 +1,42 @@
+.container {
+    background: var(--dark-color-6);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding-top: 24px;
+    padding-left: 20px;
+    padding-right: 10%;
+}
+
+.logoContainer {
+    display: flex;
+}
+
+.logoName {
+    font-size: 22px;
+    width: 106px;
+    height: 33px;
+}
+
+.login {
+    background: var(--dark-color-white);
+    width: 100px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin-left: 1000px;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.avatar {
+    border-radius: 50%
+}

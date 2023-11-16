@@ -1,0 +1,92 @@
+.container {
+    background: var(--dark-color-white);
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1050px;
+    height: 538px;
+    border-radius: 20px;
+    padding-left: 30px;
+    position: absolute;
+
+}
+
+.getStarted {
+    font-size: 16px;
+    color: var(--primary-purple);
+    padding-top: 30px;
+}
+
+.bodyH2 {
+    font-size: 22px;
+    color: var(--dark-color-1);
+}
+
+.bodyP {
+    font-size: 14px;
+    color: var(--dark-color-3);
+}
+
+.bodyImage {
+    margin-top: 88px;
+}
+
+.z {
+    position: relative;
+    background: var(--dark-color-white);
+    top: -100px;
+    left: 750px;
+    width: 262px;
+    height: 180px;
+    border-radius: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 1;
+}
+
+.popupContainer {
+    align-self: center;
+    padding: 5px;
+}
+
+.popupFirstContainer {
+    margin: 10px 10px 0 10px;
+    display: flex;
+    border-bottom: 1px solid var(--line-color-line);
+    padding: 5px;
+}
+
+.popupSecondContainer {
+    display: flex;
+    border-bottom: 1px solid var(--line-color-line);
+}
+
+.popupFirstTextContainer {
+    height: 38px;
+    margin-left: 10px;
+}
+
+.popupSecondTextContainer {
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.avatar {
+    border-radius: 50%
+}
+
+.popupH2 {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 0%;
+    font-weight: bold;
+}
+
+.popupH3 {
+    font-size: 12px;
+    font-weight: 100;
+}
+.popupEmail {
+    font-size: 12px;
+    font-weight: 100;
+    color: var(--dark-color-3);
+}

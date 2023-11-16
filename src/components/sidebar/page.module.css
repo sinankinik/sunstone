@@ -1,0 +1,81 @@
+.container {
+    background: var(--dark-color-6);
+    width: 258px;
+    height: 870px;
+    font-size: 14px;
+}
+
+.listContainer {
+    display: flex;
+    width: 238px;
+    height: 48px;
+    border-radius: 12px;
+    padding-left: 14px;
+    padding-top: 12px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.listContainer:first-child {
+    margin-top: 24px;
+}
+
+.listContainer:hover {
+    background: var(--dark-color-white);
+}
+
+.sideBarNavigation {
+    margin-left: 10px;
+}
+
+.text {
+    margin-left: 26px;
+}
+
+.upgradeBanner {
+    background: var(--dark-color-white);
+    width: 210px;
+    height: 208px;
+    margin-top: 370px;
+    margin-left: 24px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.bannerIcon {
+    position: relative;
+    top: -18px;
+    left: 80px;
+}
+
+.bannerHeader {
+    font-size: 14px;
+    font: bold;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.bannerText {
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--primary-purple);
+    width: 174px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--dark-color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+    margin-bottom: 18px;
+}
